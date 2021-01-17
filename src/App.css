@@ -1,0 +1,117 @@
+:root {
+    /* variables css*/
+    --color-main: #ffffff;
+
+    /*10 pixels (100% = 16 pixels)*/
+    font-size: 62.5%; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.warning{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    color: red;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.completed{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: green;
+    margin: 1rem, 0, 1rem, 3rem;
+    font-size: 1.6rem;
+}
+
+.form-label{
+    margin-left: 1rem;
+    font-family: sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem;
+}
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 1rem;
+}
+
+.fields-container{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+}
+
+.form-field{
+    border: 2px solid var(--color-grey-2);
+    background-color: rgba(12, 20, 20, 0.089);
+    height: 1rem;
+    width: 43rem;
+    margin: .4rem 1rem 1rem 1rem;
+    padding: 1rem 
+}
+
+.form-text-area{
+    border: 2px solid var(--color-grey-2);
+    background-color: rgba(12, 20, 20, 0.089);
+    border-radius: 4px;
+    height: 8rem;
+    width: 43.4rem;
+    margin: .4rem .8rem 0 .8rem;
+    padding: 1rem;
+}
+
+.form-btn{
+    border: 2px solid var(--color-grey-2);
+    background-color: rgba(103, 255, 255, 0.61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 15rem;
+    margin: .5rem;
+    cursor: pointer;
+}
+
+
+@media (max-width: 699px) {
+    :root {
+        font-size: 40%;
+    }
+}
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 60%;
+    }
+}
+
+@media (min-width: 1000px) {
+    :root {
+        font-size: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 75%;
+    }
+}
+
+@media (min-width: 2000px) {
+    :root {
+        font-size: 180%;
+    }
+}
